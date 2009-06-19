@@ -1,8 +1,8 @@
 <project name="appengine-clj" basedir="." default="test">
   
-  <property name="sdk.dir" location="../appengine-java-sdk-1.2.0" />
+  <property name="sdk.dir" location="../appengine-java-sdk-1.2.1" />
   <property name="classes.dir" value="classes" />
-  <property name="lib.dir" value="lib" />
+  <property name="lib.dir" value="../compojure/deps" />
   <property name="src.dir" value="src" />
   <property name="test.dir" value="test" />
   <property name="jar.file" value="appengine-clj.jar" />
